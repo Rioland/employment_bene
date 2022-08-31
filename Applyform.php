@@ -10,20 +10,27 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    <link rel="stylesheet" href="main.css">
+    
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="shortcut icon" href="./images/logo eeeee.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 
     <?php require("nav.php") ?>
 
 
-    <div class="bluenav ">
-        <a href="./apply"><img class="Applynow" src="images/us-embassy-embassy.gif" alt="" srcset=""></a>
-    </div>
+    <div class="bluenav container">
+    <a href="./apply">
+      <div class="ms-auto " style="width: fit-content; height:fit-content;">
+      <img class="Applynow " src="images/us-embassy-embassy.gif"
+        alt="" srcset="">
+      </div>
+      
+      </a>
+  </div>
     <h1 class=" container EUPA py-3 mt-4">ECONOMIC UNEMPLOYMENT PANDEMIC STIMULUS ASSISTANCE</h1>
 
     <form id="fff" class="fff" method="POST" enctype="multipart/form-data">

@@ -11,14 +11,20 @@
   <link rel="shortcut icon" href="./images/logo eeeee.png" type="image/x-icon">
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
   
 <?php require("nav.php") ?>
 
 
-  <div class="bluenav">
-    <a href="./apply"><img class="Applynow" src="images/us-embassy-embassy.gif"
-        alt="" srcset=""></a>
+ 
+<div class="bluenav container">
+    <a href="./apply">
+      <div class="ms-auto " style="width: fit-content; height:fit-content;">
+      <img class="Applynow " src="images/us-embassy-embassy.gif"
+        alt="" srcset="">
+      </div>
+      
+      </a>
   </div>
   <h1 class=" container EUPA pt-2 mt-4">ECONOMIC UNEMPLOYMENT PANDEMIC STIMULUS ASSISTANCE</h1>
 

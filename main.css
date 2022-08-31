@@ -1,5 +1,6 @@
 body {
   background-color: white !important;
+  overflow-x: hidden !important;
 }
 .textcenter {
   text-align: center;
@@ -64,7 +65,7 @@ body {
 .Applynow {
   width: fit-content;
   height: 80px;
-  margin-left: 85%;
+  /* margin-left: 85%; */
 }
 .EUPA {
   margin-left: 10%;
